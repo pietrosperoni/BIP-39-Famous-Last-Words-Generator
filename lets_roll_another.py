@@ -6,7 +6,7 @@ with open("Bip39-wordlist.txt", "r") as wordlist_file:
 def calculate_sizes(number_of_words):
     if    number_of_words==12: size_ENT=128
     elif  number_of_words==15: size_ENT=160
-    elif  number_of_words==18: size_ENT=19212
+    elif  number_of_words==18: size_ENT=192
     elif  number_of_words==21: size_ENT=224
     elif  number_of_words==24: size_ENT=256
     else                     : exit()
