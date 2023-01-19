@@ -23,7 +23,7 @@ def read_roll(number_dices):
     complete_roll=""
     dices_left=number_dices
     while (dices_left>0):
-        roll=input(f"Roll {dices_left} 8 sided dices. Write them here. If you want you can click RETURN half way and I will tell you how many are left.\n")
+        roll=input(f"Roll {dices_left} 8-sided dice. Write the result here. If you want you can click RETURN half way and I will tell you how many dice are left.\n")
         for r in roll:
             if r in ['1','2','3','4','5','6','7','8']:
                 complete_roll+=r
